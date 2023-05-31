@@ -49,7 +49,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: XDreamsonX/infra_actions:latest
+          tags: coldsky21/infra_actions:latest
 
   deploy:
     runs-on: ubuntu-latest
